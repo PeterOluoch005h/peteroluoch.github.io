@@ -1,31 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Peter Oluoch | Portfolio</title>
-  <style>
-    body { font-family: Arial; margin: 40px; background: #f5f5f5; }
-    h1 { color: #333; }
-    .project { background: white; padding: 20px; margin: 20px 0; border-radius: 10px; }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peter Oluoch | Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.1rem;
+            color: #ccc;
+        }
+        section {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #222;
+            border-bottom: 2px solid #222;
+            padding-bottom: .5rem;
+        }
+        .project {
+            margin-bottom: 1.5rem;
+        }
+        .project h3 {
+            margin: .2rem 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #222;
+            color: #ccc;
+        }
+        a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <h1>Hi, I'm Peter Oluoch 👋</h1>
-  <p>I'm a digital creator passionate about 3D design, animation, and creative tech.</p>
+    <header>
+        <h1>Peter Oluoch</h1>
+        <p>Web Developer | Designer | Creative Thinker</p>
+    </header>
 
-  <h2>My Projects</h2>
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! I’m Peter Oluoch, a passionate web developer who enjoys creating clean, responsive, and user-friendly websites. I love turning ideas into digital experiences.</p>
+    </section>
 
-  <div class="project">
-    <h3>3D Model Showcase</h3>
-    <p>Created in Blender, textured in Substance Painter.</p>
-    <a href="https://superhivemarket.com/your-product-link" target="_blank">View on Superhive</a>
-  </div>
+    <section>
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>1. Portfolio Website</h3>
+            <p>A personal website built using HTML, CSS, and GitHub Pages to showcase my work and skills.</p>
+        </div>
+        <div class="project">
+            <h3>2. 3D Models Showcase</h3>
+            <p>A creative page displaying 3D model renders and interactive scenes built with Blender.</p>
+        </div>
+        <div class="project">
+            <h3>3. Future Projects</h3>
+            <p>More exciting projects coming soon — stay tuned!</p>
+        </div>
+    </section>
 
-  <div class="project">
-    <h3>Animation Short: “The Journey”</h3>
-    <p>Animated in Blender, rendered with Cycles.</p>
-  </div>
+    <section>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:peteroluoch@gmail.com">peteroluoch@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/PeterOluoch005h" target="_blank">github.com/PeterOluoch005h</a></p>
+    </section>
 
-  <h2>Contact</h2>
-  <p>Email: peteroluoch@example.com</p>
+    <footer>
+        <p>© 2025 Peter Oluoch. All rights reserved.</p>
+    </footer>
 </body>
 </html>
